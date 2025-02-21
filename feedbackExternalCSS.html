@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="FeedbackStyle.css">
+</head>
+<body>
+
+    <div class="feedback-container">
+        <h2>Feedback Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name (Optional):</label><br>
+            <input type="text" id="name" name="name" value="Ammannagari manoja"><br><br>
+
+            <label for="email">Email (Optional):</label><br>
+            <input type="email" id="email" name="email" value="manojaammannagari@gmail.com"><br><br>
+
+            <label for="phone">Phone (Optional):</label><br>
+            <input type="tel" id="phone" name="phone" value="8466949858"><br><br>
+
+            <label>Rating:</label><br>
+            <div class="rating">
+                <label><input type="radio" name="rating" value="1"> 1</label>
+                <label><input type="radio" name="rating" value="2"> 2</label>
+                <label><input type="radio" name="rating" value="3"> 3</label>
+                <label><input type="radio" name="rating" value="4"> 4</label>
+                <label><input type="radio" name="rating" value="5" checked> 5</label> </div><br><br>
+
+            <label for="question">Any Questions regarding the product or service?</label><br>
+            <input type="text" id="question" name="question"><br><br>
+
+            <label for="comments">Additional Comments (Optional):</label><br>
+            <textarea id="comments" name="comments"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
